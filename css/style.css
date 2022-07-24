@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+
+.home{
+  display: flex;
+  justify-content: space-between
+}
+
+
+/* this from left class */
+.left{
+  background-color: #F4F3EF;
+  width: 100%;
+
+}
+.biglogo{
+  margin-top: 100px;
+}
+
+
+/* this from right class */
+.right{
+  height: 900px;
+  padding: 20px;
+  background-color: #4754A3;
+  color: white;
+}
+.navbar{
+  background-color: #4754A3;
+  height: 90px;
+  width: 680px;
+  margin-left: -18px;
+  position: sticky;
+  top: 0 ;
+}
+
+.navbar a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.navbar a:hover{
+  color: orange;
+}
+.navbar td:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+/* two buttons home page */
+.mainbtn{
+  background-color: rgb(229, 163, 163);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  width: 100px;
+  height: 35px;
+  transition: all 1s;
+}
+.mainbtn:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+.secondrybtn{
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  width: 100px;
+  height: 35px;
+  transition: all 1s;
+}
+.secondrybtn:hover{
+  background-color: rgb(229, 163, 163);
+  color: white;
+  transform: scale(1.05);
+  
+
+}
+
+
+
+/* scnner class  which contain */
+.scanner{
+  margin-top: 200px;
+  
+}
+.scanner p::first-letter{
+  color: red;
+  font-size: 25px;
+}
+
+.fa {
+  padding: 20px;
+  font-size:30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+/* Set a specific color for each brand */
+/* Twitter */
+.fa-twitter {
+  background: #4754A3;;
+  color: white;
+}
+.fa-instagram {
+  background: #4754A3;;
+  color: white;
+}
+.fa-snapchat {
+  background:#4754A3; ;
+  color: white;
+}
+
+
+/* about section  */
+.aboutall{
+  margin-top: -56px;
+  background-color: beige;
+}
+.aboutall #logoB{
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+.about{
+  padding: 100px;
+  display: flex;
+
+}
+
+/* class sometxt */
+.sometxt{
+  margin-top: 221px;
+}
+.sometxt h1{
+  margin-left: 292px;
+}
+.sometxt p{
+  margin-left: 292px;
+}
+.sometxt button{
+  cursor: pointer;
+  background-color: darkblue;
+border-radius: 10px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  width: 110px;
+  height: 40px;
+  transition: all 1s ease-in-out;
+}
+
+.sometxt button:hover{
+  transform: scale(1.1);
+  background-color: #F4F3EF;
+  color: black;
+  border: 2px solid black;
+
+}
+
+/* Blog post */
+
+
+/* this is the h1 text where written blog heading */
+#blog{
+margin-left: 620px;
+}
+.blog{
+  padding: 20px;
+  text-align: justify;
+  color: black;
+background-color: #8491e7;
+}
+
+.navbarB{
+  background-color: #8491e7;
+  height: 90px;
+  width: 700px;
+  margin-left: 51%;
+  position: sticky;
+  top: 0 ;
+}
+
+.navbarB a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.navbarB a:hover{
+  color: orange;
+}
+.navbarB td:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+.bodycontent{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* blog image technology */
+.blogImage img{
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 300px;
+
+}
+
+
+/* my skills portion */
+.skills {
+  background-color:#f2d1d1;
+}
+
+/* pargraph */
+.para{
+  cursor: pointer;
+  text-align: center;
+}
+
+.para:hover{
+  text-decoration: underline;
+  transition: 1s;
+}
+
+
+.skills h1{
+font-size: 35px;
+}
+
+/* class name 'myskill' */
+.skills .logo{
+  background-color:#f2d1d1;
+  height: 110px;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+
+.myskill{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.myskill img:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+/* html-css */
+
+.html-css{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 250px;
+  height: 350px;
+  transition: all 1s;
+}
+
+.html-css:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+/* javascript */
+.javascript{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 280px;
+  transition: all 1s;
+}
+.javascript:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+/* java */
+.java{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 350px;
+  transition: all 1s;
+}
+.java:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+/* photoshop */
+.photoshop{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 250px;
+  transition: all 1s;
+}
+.photoshop:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+/* mysql */
+.mysql{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  height: 350px;
+  overflow: hidden;
+  padding: 4px;
+  width: 310px;
+  transition: all 1s;
+}
+.mysql:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+
+/* illustrator */
+.illustrator{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 250px;
+  transition: all 1s;
+}
+.illustrator:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+
+/* xd */
+.xd{
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.766);
+  overflow: hidden;
+  padding: 4px;
+  width: 250px;
+  transition: all 1s;
+}
+
+.xd:hover{
+  box-shadow: 4px 4px 10px black;
+}
+
+/* contact page */
+
+.contectpage{
+  background-color:#A0D995;
+  margin-top: -165px;
+}
+
+.contect{
+  padding: 100px;
+  
+}
+.navbarC{
+  background-color:#A0D995;
+  height: 90px;
+  width: 700px;
+  margin-left: 51%;
+  position: sticky;
+  top: 0 ;
+}
+
+.navbarC a{
+
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  transition: all 1s;
+}
+.navbarC a:hover{
+  color: orange;
+}
+.navbarC td:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size:30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+/* Set a specific color for each brand */
+/* Twitter */
+.fa-twitter {
+  background: #4754A3;;
+  color: white;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #4754A3;;
+  color: white;
+  border-radius: 50%;
+}
+.fa-snapchat {
+  background:#4754A3; ;
+  color: white;
+  border-radius: 50%;
+}
+
+
+
+/* footer  */
+footer{
+  background-color:#4CACBC;
+  color:black;
+  padding: 50px;
+}
+
+/* footer-top part */
+.topfooter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.topfooter img{
+  margin-top:-45px;
+}
